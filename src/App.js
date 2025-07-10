@@ -4,7 +4,7 @@ import FNavigation from './features/final/components/fNavigation';
 function App() {
   return (
     <div className="App">
-      <FNavigation />
+      {/* <FNavigation /> */}
     </div>
   );
 }
