@@ -4,8 +4,7 @@ import FNavigation from './features/final/components/fNavigation';
 function App() {
   return (
     <div className="App">
-      goku2
-      {/* <FNavigation /> */}
+      <FNavigation />
     </div>
   );
 }
