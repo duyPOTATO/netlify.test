@@ -1,0 +1,43 @@
+:root {
+    --color-1: #30343F;
+    --color-2: #FAFAFF;
+    --color-3: #E4D9FF;
+    --color-4l: #79BA3C;
+    --color-4: #273469;
+    --color-5: #1E2749;
+    --color-6: #0d111f;
+    --test-tablet: #0057E9;
+    --test-laptop: #FF00BD;
+    --test-pc: #87E911;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body,
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+.ocean-easter-eggs a,
+.ocean-easter-eggs a:visited {
+    font-weight: 700;
+    text-decoration: none;
+    color: #2B65EC;
+}
+
+.ocean-easter-eggs a:hover {
+    font-weight: 700;
+    text-decoration: none;
+    color: #2B65EC;
+}
+
+.lamexD {
+    background-color: #0d111f;
+}
