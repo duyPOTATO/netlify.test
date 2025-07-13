@@ -18,10 +18,10 @@ function FMain() {
                 </h1>
                 <div className="fe-highlight__container">
                     <EssayPreview
-                        id="1"
-                        day="Bài tập buổi 3"
+                        day="3"
+                        short="KIỂM TRA"
                         imgSource={img}
-                        title="Xin chào buổi 3"
+                        title="BÀI TẬP KIỂM TRA GIỮA KÌ"
                         decript="Xin chào buổi 3 abc"
                     />
                 </div>

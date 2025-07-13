@@ -1,20 +1,32 @@
 :root {
-  --navigation-height: 57px;
+    --navigation-height: 57px;
 }
 
 .ocean-easter-eggs a,
 .ocean-easter-eggs a:visited {
-  color: #2b65ec;
-  font-weight: 700;
-  text-decoration: none;
+    color: #2b65ec;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .ocean-easter-eggs a:hover {
-  font-weight: 700;
-  text-decoration: none;
-  color: #2b65ec;
+    font-weight: 700;
+    text-decoration: none;
+    color: #2b65ec;
 }
 
 .fMains {
-  margin-top: --navigation-height;
+    margin-top: --navigation-height;
+}
+
+.essay-preview-card__title {
+    writing-mode: vertical-rl;
+    padding-left: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .essay-preview-card__title {
+        writing-mode: inherit;
+        padding-left: 0;
+    }
 }
