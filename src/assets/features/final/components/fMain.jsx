@@ -1,33 +1,36 @@
-import "../styles/fMain.css";
-import EssayPreview from "./essayPreview";
-import Hero from "./hero";
-import dupoPreview from "../../../images/this-is-dupo.png";
+import '../styles/fMain.css';
+import EssayPreview from './essayPreview';
+import Hero from './hero';
+import dupoPreview from '../../../images/this-is-dupo.png';
+import img from '../../..//images/day3_preview.jpg';
 
 function FMain() {
-  return (
-    <div className="fMain">
-      <Hero
-        refUrl="https://www.google.com/search?q=ocean"
-        profileUrl="facebook.com/dupo.duypotato"
-        previewImg={dupoPreview}
-      />
-      <div className="highlight">
-        <h1 className="hl-title">MỘT SỐ BÀI LÀM TIÊU BIỂU</h1>
-        <div className="hl-container">
-          <EssayPreview
-            id="1"
-            day="Bài tập buổi 3"
-            imgSource=""
-            title="Xin chào buổi 3"
-            decript="Xin chào buổi 3 abc"
-          />
+    return (
+        <div className="final-essay-main">
+            <Hero
+                refUrl="https://www.google.com/search?q=ocean"
+                profileUrl="facebook.com/dupo.duypotato"
+                previewImg={dupoPreview}
+            />
+            <div className="final-essay__highlight bg-slate-950 px-2 py-5 md:px-5 md:py-10 lg:px-10 lg:py-15">
+                <h1 className="fe-highlight__title text-lg font-bold text-amber-50 italic md:text-2xl lg:text-4xl">
+                    MỘT SỐ BÀI LÀM TIÊU BIỂU
+                </h1>
+                <div className="fe-highlight__container">
+                    <EssayPreview
+                        id="1"
+                        day="Bài tập buổi 3"
+                        imgSource={img}
+                        title="Xin chào buổi 3"
+                        decript="Xin chào buổi 3 abc"
+                    />
+                </div>
+            </div>
+            <div className="fe-about"></div>
+            <div className="fe-skills"></div>
+            <div className="fe-contact"></div>
         </div>
-      </div>
-      <div className="about"></div>
-      <div className="skills"></div>
-      <div className="contact"></div>
-    </div>
-  );
+    );
 }
 
 export default FMain;
