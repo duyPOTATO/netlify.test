@@ -2,7 +2,7 @@ import '../styles/fMain.css';
 import EssayPreview from './essayPreview';
 import Hero from './hero';
 import dupoPreview from '../../../images/this-is-dupo.png';
-import img from '../../..//images/day3_preview.jpg';
+import img from '../../..//images/day2_preview.jpg';
 
 function FMain() {
     return (
@@ -22,7 +22,7 @@ function FMain() {
                         short="KIỂM TRA"
                         imgSource={img}
                         title="BÀI TẬP KIỂM TRA GIỮA KÌ"
-                        decript="Xin chào buổi 3 abc"
+                        decript="Đắc nhân tâm (Được lòng người), tên tiếng Anh là How to Win Friends and Influence People là một quyển sách nhằm tự giúp bản thân (self-help) bán chạy nhất từ trước đến nay. Quyển sách này do Dale Carnegie viết và đã được xuất bản lần đầu vào năm 1936, nó đã được bán 15 triệu bản trên khắp thế giới.[1][2] Nó cũng là quyển sách bán chạy nhất của New York Times trong 10 năm. Tác phẩm được đánh giá là cuốn sách đầu tiên và hay nhất trong thể loại này, có ảnh hưởng thay đổi cuộc đời đối với hàng triệu người trên thế giới."
                     />
                 </div>
             </div>
