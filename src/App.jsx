@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import FNavigation from "./assets/features/final/components/fNavigation";
+import FMain from "./assets/features/final/components/fMain";
 
 function App() {
-
   return (
     <>
-      hello world
+      <FNavigation />
+      <FMain />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
