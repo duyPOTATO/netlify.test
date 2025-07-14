@@ -1,4 +1,4 @@
-function Hero(props) {
+const Hero = (props) => {
     return (
         <>
             <div className="final-essay__hero flex flex-row items-center justify-between bg-gray-700">
@@ -29,6 +29,6 @@ function Hero(props) {
             </div>
         </>
     );
-}
+};
 
 export default Hero;

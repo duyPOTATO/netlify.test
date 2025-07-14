@@ -1,14 +1,14 @@
-import "./App.css";
-import FNavigation from "./assets/features/final/components/fNavigation";
-import FMain from "./assets/features/final/components/fMain";
+import './App.css';
+import FinalNavigation from './assets/features/final/components/FinalNavigation';
+import FinalMain from './assets/features/final/components/FinalMain';
 
 function App() {
-  return (
-    <>
-      <FNavigation />
-      <FMain />
-    </>
-  );
+    return (
+        <>
+            <FinalNavigation />
+            <FinalMain />
+        </>
+    );
 }
 
 export default App;

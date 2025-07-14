@@ -1,9 +1,9 @@
 import GoToSVG from '../../../images/svg.svg?react';
 
-function EssayPreview(props) {
+const EssayPreview = (props) => {
     return (
         <div
-            className="essay-preview-card mt-5 flex flex-col border-t border-amber-50 py-4 last:border-b md:mt-10 md:flex-row md:py-5"
+            className="essay-preview-card mt-5 flex flex-col border-t border-amber-50 py-4 last:border-b md:mt-10 md:flex-row md:py-9"
             id={props.day}
         >
             <h1 className="essay-preview-card__title mb-5 text-xl text-amber-50 italic md:mr-auto md:mb-0 lg:text-2xl">
@@ -39,6 +39,6 @@ function EssayPreview(props) {
             </div>
         </div>
     );
-}
+};
 
 export default EssayPreview;
