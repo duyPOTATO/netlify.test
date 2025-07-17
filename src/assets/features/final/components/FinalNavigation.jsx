@@ -1,4 +1,4 @@
-import '../styles/fNavigation.css';
+import '../styles/FinalNavigation.css';
 import logo from '../../../images/dupo-logo-line.png';
 import { useState } from 'react';
 
@@ -10,7 +10,7 @@ const FinalNavigation = () => {
     };
     return (
         <>
-            <div className="navbar-fixed">
+            <div className="navbar-fixed bg-teal-900">
                 <div className="nav-container">
                     <div className="nav-left">
                         <a href="#" className="menu-items logo">

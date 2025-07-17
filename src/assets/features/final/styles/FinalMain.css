@@ -1,3 +1,6 @@
+@import 'tailwindcss';
+@tailwind utilities;
+
 :root {
     --navigation-height: 57px;
 }
@@ -15,13 +18,31 @@
     color: #2b65ec;
 }
 
-.fMains {
+.FinalMains {
     margin-top: --navigation-height;
 }
 
 .essay-preview-card__title {
     writing-mode: vertical-rl;
     padding-left: 1em;
+}
+
+.swiper-pagination-bullet {
+    background: white;
+}
+
+@layer components {
+    .final-section-title {
+        @apply text-xl font-bold text-amber-50 uppercase italic md:text-2xl lg:text-4xl;
+    }
+
+    .final-essay-section {
+        @apply px-2 py-5 md:px-5 md:py-10 lg:px-10 lg:py-15;
+    }
+
+    .final-essay-section .final-essay-section__article {
+        @apply mt-5 border-t border-amber-50 py-4 last:border-b md:mt-10 md:py-9;
+    }
 }
 
 @media screen and (max-width: 768px) {
