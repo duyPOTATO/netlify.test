@@ -1,4 +1,5 @@
 import React from 'react';
+import duyanh from '../../../images/duy_anh_ne.jpg';
 
 const About = () => {
     return (
@@ -23,9 +24,9 @@ const About = () => {
                     </span>
                 </div>
                 <img
-                    src=""
+                    src={duyanh}
                     alt=""
-                    className="aspect-[4/3] h-full w-11/12 rounded-lg md:ml-auto md:w-5/12 md:rounded-l-lg md:rounded-r-none lg:w-4/12 xl:w-3/12"
+                    className="aspect-[4/3] h-full w-11/12 rounded-lg object-cover object-[35%_85%] md:ml-auto md:w-5/12 md:rounded-l-lg md:rounded-r-none lg:w-4/12 xl:w-3/12"
                 />
             </div>
         </div>
