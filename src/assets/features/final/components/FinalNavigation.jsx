@@ -103,7 +103,7 @@ const FinalNavigation = () => {
                     </ul>
                 </div>
             </div>
-            <div class="lamexD"></div>
+            <div className="lamexD"></div>
         </>
     );
 };
