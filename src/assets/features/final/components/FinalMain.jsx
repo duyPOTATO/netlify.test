@@ -1,4 +1,4 @@
-import EssayPreview from './EssayPreview';
+import EssayPreview from './essayPreview';
 import Hero from './hero';
 import FeedbackSection from './feedback';
 import Skills from './skills';
