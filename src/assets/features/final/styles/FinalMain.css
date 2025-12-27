@@ -35,6 +35,9 @@
     .final-section-title {
         @apply text-xl font-bold text-amber-50 uppercase italic md:text-2xl lg:text-4xl;
     }
+    .final-section-title.sm {
+        @apply text-center text-lg font-bold text-amber-50 uppercase italic md:text-xl lg:text-2xl;
+    }
 
     .final-essay-section {
         @apply px-2 py-5 md:px-5 md:py-10 lg:px-20 lg:py-15;

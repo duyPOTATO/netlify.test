@@ -12,16 +12,28 @@ const Skills = () => {
         <div className="final-essay-section">
             <h1 className="final-section-title">Kỹ năng</h1>
             <div className="final-essay-section__article text-indigo-50">
-                <div className="flex flex-col gap-4 bg-amber-500 p-5">
-                    <div className="flex flex-row flex-wrap gap-4 bg-amber-600 p-5">
-                        <SkillCard svg={SVGReact} />
-                        <SkillCard svg={SVGTail} />
-                        <SkillCard svg={SVGSass} />
-                        <SkillCard svg={SVGNext} />
+                <div className="flex flex-col gap-4 p-5">
+                    <div className="class border-b-2 pb-10 last:border-b-0">
+                        <h1 className="final-section-title sm pb-5">
+                            Kỹ năng chính
+                        </h1>
+                        <div className="flex flex-row flex-wrap items-center justify-center gap-4 p-5">
+                            <SkillCard svg={SVGReact} />
+                            <SkillCard svg={SVGTail} />
+                            <SkillCard svg={SVGSass} />
+                            <SkillCard svg={SVGNext} />
+                        </div>
                     </div>
-                    <div className="flex flex-row gap-3 bg-amber-600 p-5">
-                        <SkillCard svg={SVGGit} />
-                        <SkillCard svg={SVGFigma} />
+                    <div className="class border-b-2 pb-10 last:border-b-0">
+                        <h1 className="final-section-title sm pb-5">
+                            Kỹ năng chính
+                        </h1>
+                        <div className="flex flex-row flex-wrap items-center justify-center gap-4 p-5">
+                            <SkillCard svg={SVGReact} />
+                            <SkillCard svg={SVGTail} />
+                            <SkillCard svg={SVGSass} />
+                            <SkillCard svg={SVGNext} />
+                        </div>
                     </div>
                 </div>
             </div>
