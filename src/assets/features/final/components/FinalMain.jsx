@@ -4,6 +4,7 @@ import FeedbackSection from './feedback';
 // import Contact from './contact';
 // import About from './about';
 import Experience from './experience';
+import Skills from './skills';
 import dupoPreview from '../../../images/this-is-dupo.png';
 import { useState } from 'react';
 import img from '../../../images/login-page.png';
@@ -61,6 +62,7 @@ const FinalMain = () => {
             />
             {/* <About /> */}
             <Experience items={items} />
+            <Skills />
             <FeedbackSection feedbacks={feedbacks} />
             {/* <Contact /> */}
         </div>
