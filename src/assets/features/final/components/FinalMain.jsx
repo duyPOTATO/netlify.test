@@ -1,12 +1,12 @@
 import Hero from './hero';
 import FeedbackSection from './feedback';
-import Skills from './skills';
-import Contact from './contact';
-import About from './about';
-import HighLights from './hightlights';
+// import Experience from './experience_disable';
+// import Contact from './contact';
+// import About from './about';
+import Experience from './experience';
 import dupoPreview from '../../../images/this-is-dupo.png';
 import { useState } from 'react';
-import img from '../../../images/day2_preview.jpg';
+import img from '../../../images/login-page.png';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -17,13 +17,14 @@ const FinalMain = () => {
     // eslint-disable-next-line no-unused-vars
     const [items, setItem] = useState([
         {
-            day: 3,
-            short: 'KIỂM TRA',
+            day: 2024,
+            dayend: 2025,
             url: '',
             imgSource: img,
-            title: 'BÀI TẬP KIỂM TRA GIỮA KÌ',
+            title: 'Nghiên cứu và xây dựng hệ thống quản lý đào tạo tại trường đại học',
+            role: 'FE Dev',
             decript:
-                'Đắc nhân tâm (Được lòng người), tên tiếng Anh là How to Win Friends and Influence People là một quyển sách nhằm tự giúp bản thân (self-help) bán chạy nhất từ trước đến nay. Quyển sách này do Dale Carnegie viết và đã được xuất bản lần đầu vào năm 1936, nó đã được bán 15 triệu bản trên khắp thế giới.[1][2] Nó cũng là quyển sách bán chạy nhất của New York Times trong 10 năm. Tác phẩm được đánh giá là cuốn sách đầu tiên và hay nhất trong thể loại này, có ảnh hưởng thay đổi cuộc đời đối với hàng triệu người trên thế giới.'
+                'Thiết kế giao diện và trải nghiệm người dùng thân thiện, trực quan và hiện đại hơn, tối ưu thời gian tải trang bằng việc sử dụng components và template tự tạo sử dụng React Components, Props, State.'
         }
     ]);
     // eslint-disable-next-line no-unused-vars
@@ -58,11 +59,10 @@ const FinalMain = () => {
                 profileUrl="facebook.com/dupo.duypotato"
                 previewImg={dupoPreview}
             />
-            <HighLights items={items} />
-            <About />
-            <Skills />
+            {/* <About /> */}
+            <Experience items={items} />
             <FeedbackSection feedbacks={feedbacks} />
-            <Contact />
+            {/* <Contact /> */}
         </div>
     );
 };

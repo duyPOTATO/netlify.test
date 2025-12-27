@@ -23,7 +23,7 @@ const FeedbackSection = ({ feedbacks }) => {
 
     return (
         <div className="final-essay__feedback final-essay-section">
-            <h1 className="final-section-title">Nhận xét từ khách hàng</h1>
+            <h1 className="final-section-title">Đánh giá từ khách hàng</h1>
             <div className="final-essay-section__article inline-flex w-full flex-row gap-2 overflow-x-auto">
                 <Swiper
                     className="w-full"

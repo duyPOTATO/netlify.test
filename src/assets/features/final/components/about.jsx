@@ -1,5 +1,5 @@
 import React from 'react';
-import duyanh from '../../../images/duy_anh_ne.jpg';
+import duyanh from '../../../images/duy_anh_ne_2.jpeg';
 
 const About = () => {
     return (
